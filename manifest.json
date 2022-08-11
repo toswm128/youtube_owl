@@ -1,0 +1,12 @@
+{
+  "name": "youtube_owl",
+  "description": "유튜브 세로 직캠을 회전하는 크롬 확장프로그램",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
