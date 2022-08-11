@@ -8,5 +8,13 @@
       "matches": ["https://www.youtube.com/*"],
       "js": ["index.js"]
     }
-  ]
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "owl"
+  },
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  }
 }
