@@ -10,16 +10,29 @@
         border: 1px solid whitesmoke;
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
       }
     </style>
   </head>
   <body>
     <div class="bar">
+      <div>크기</div>
+
       <input class="number" value="1.5" type="number" />
     </div>
     <div class="bar">
       <input class="scroll" type="range" value="37.5" />
       <div class="scroll-title">1.5</div>
+    </div>
+    <div class="bar">
+      <div>모드 적용</div>
+      <input class="turn" type="checkbox" checked />
+      <div class="turn-title">켜짐</div>
+    </div>
+    <div class="bar">
+      <div>왼쪽으로 돌리기</div>
+      <input class="left" type="checkbox" checked />
+      <div class="left-title">켜짐</div>
     </div>
   </body>
 
